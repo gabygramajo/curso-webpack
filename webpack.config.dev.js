@@ -18,6 +18,7 @@ module.exports = {
     assetModuleFilename: 'assets/images/[hash][ext][query]'
   },
   mode: 'development', // indicamos que este será la configuración para el modo de desarrollo
+  devtool: 'source-map',
   resolve: { // que extensiones utilizará el proyecto para que webpack sepa como leer los archivos del proyecto. 
     extensions: ['.js'],
     alias: { // Agregando alias a nuestro directorios
